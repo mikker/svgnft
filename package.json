@@ -1,0 +1,30 @@
+{
+  "name": "svgnft",
+  "version": "0.1.0",
+  "author": "Mikkel Malmberg <mikkel@brnbw.com>",
+  "files": [
+    "contracts/*.sol"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.2",
+    "chai": "^4.3.4",
+    "ethers": "^5.4.7",
+    "hardhat": "^2.6.4",
+    "mocha": "^9.1.2",
+    "prettier": "^2.4.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.18"
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": "*.sol",
+        "options": {
+          "printWidth": 1000
+        }
+      }
+    ]
+  }
+}
